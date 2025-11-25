@@ -1,3 +1,6 @@
+/* ==============================
+   VARIABLES ROOT (fallback)
+============================== */
 :root{
   --blanco-humo: #F5F5F5;
   --negro-grafito: #222222;
@@ -6,13 +9,26 @@
   --verde-oliva: #556B2F;
 }
 
-/* General */
-body{
-  background: var(--blanco-humo);
-  font-family: Lato, sans-serif;
+/* ==============================
+   RESET/BASE (Mayor compatibilidad)
+============================== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-/* Marca */
+body{
+  background: var(--blanco-humo);
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h5, h6{
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+
+/* ==============================
+   MARCA
+============================== */
 .brand-mark{
   width:44px;
   height:44px;
@@ -20,69 +36,104 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  background: linear-gradient(135deg, var(--terracota), #b74f2d);
+
+  /* Gradients con prefijos */
+  background:
+    -webkit-linear-gradient(135deg, var(--terracota), #b74f2d);
+  background:
+    -moz-linear-gradient(135deg, var(--terracota), #b74f2d);
+  background:
+    linear-gradient(135deg, var(--terracota), #b74f2d);
+
   color:#fff;
   font-weight:700;
 }
 
-/* Hero */
+/* ==============================
+   HERO
+============================== */
 .hero{
-  background: linear-gradient(180deg, rgba(245,245,245,0.6), rgba(233, 216, 166, 0.4)),
-              url('https://media.revistagq.com/photos/64ccaef02a2ce6c05ac8fdf9/16:9/w_1920,c_limit/nb.jpg') center/cover;
+  /* Gradiente con prefijos */
+  background:
+    -webkit-linear-gradient(180deg, rgba(245,245,245,0.6), rgba(233,216,166,0.4)),
+    url('https://media.revistagq.com/photos/64ccaef02a2ce6c05ac8fdf9/16:9/w_1920,c_limit/nb.jpg') center/cover;
+  background:
+    -moz-linear-gradient(180deg, rgba(245,245,245,0.6), rgba(233,216,166,0.4)),
+    url('https://media.revistagq.com/photos/64ccaef02a2ce6c05ac8fdf9/16:9/w_1920,c_limit/nb.jpg') center/cover;
+  background:
+    linear-gradient(180deg, rgba(245,245,245,0.6), rgba(233,216,166,0.4)),
+    url('https://media.revistagq.com/photos/64ccaef02a2ce6c05ac8fdf9/16:9/w_1920,c_limit/nb.jpg') center/cover;
+
   padding: 50px;
   border-radius: 14px;
 }
 
-/* Cards */
+/* ==============================
+   PRODUCT CARDS
+============================== */
 .product-card img{
-  width: 100%;
-  height: 200px;     /* Ajusta si quieres más grande o más pequeña */
-  object-fit: cover;
-  object-position: center;
-  display: block;
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  object-position:center;
+  display:block;
 }
+
 .product-card{
-  background-color: var(--beige-claro);
+  background-color:var(--beige-claro);
 }
 
+/* Texto en terracota */
+.text-terracota{
+  color:var(--terracota);
+}
 
-.text-terracota{ color: var(--terracota); }
-
-/* Buttons */
+/* ==============================
+   BOTONES
+============================== */
 .btn-terracota{
-  background: var(--terracota);
+  background:var(--terracota);
   color:#fff;
   font-weight:700;
 }
 
+/* Hover con soporte */
 .btn-terracota:hover{
+  -webkit-filter:brightness(0.9);
+  -moz-filter:brightness(0.9);
   filter:brightness(0.9);
 }
 
 .btn-olive{
-  background: var(--verde-oliva);
+  background:var(--verde-oliva);
   color:#fff;
 }
 
-/* Offers */
+/* ==============================
+   BARRA DE OFERTAS
+============================== */
 .offers-bar{
-  background: var(--beige-claro);
+  background:var(--beige-claro);
   color:#000000;
 }
 
-/* Hero card */
+/* ==============================
+   HERO CARD
+============================== */
 .hero-card img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
 }
+
 .hero-card{
-  background-color: var(--beige-claro) ;
+  background-color:var(--beige-claro);
 }
 
-
-/* Page spacing */
+/* ==============================
+   TITULOS
+============================== */
 .section-title{
-  font-family: 'Playfair Display', serif;
+  font-family:'Playfair Display', Georgia, serif;
 }
