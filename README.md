@@ -12,7 +12,7 @@ La filosofía de la marca ficticia "Rolda Toro" se centra en la **comodidad, el 
 
 ##  Características Principales (Features)
 
-- **🛒 Carrito de Compras Dinámico:** Los usuarios pueden agregar, visualizar y gestionar los productos que desean comprar antes de finalizar la transacción. El contador se actualiza en tiempo real en la barra de navegación.
+- ** Carrito de Compras Dinámico:** Los usuarios pueden agregar, visualizar y gestionar los productos que desean comprar antes de finalizar la transacción. El contador se actualiza en tiempo real en la barra de navegación.
 - ** Categorización Intuitiva:** Navegación fluida segmentada por colecciones: *Hombre, Mujer, Niños* y sección de *Ofertas*.
 - ** Diseño UI/UX Atractivo:** Interfaz moderna y amigable con el usuario. Uso de una paleta de colores cálida (terracota, beige y blanco) que transmite elegancia y comodidad.
 - ** Totalmente Responsivo:** Diseño adaptable a diferentes tamaños de pantalla (Móviles, Tablets y Escritorio). *(Añade esto si tu página es responsive)*.
