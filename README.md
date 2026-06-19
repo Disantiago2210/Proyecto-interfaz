@@ -22,14 +22,9 @@ La filosofía de la marca ficticia "Rolda Toro" se centra en la **comodidad, el 
 
 ## 📸 Capturas de Pantalla
 
-| Inicio / Hero Section |
-
-
-
-| Catálogo de Productos |
-
-
-
+| Inicio / Hero Section | Catálogo de Productos |
+| :---: | :---: |
+| ![Inicio](img/Hero%20section.png) | ![Catálogo](img/Catalogo%20productos.png) |
 ---
 
 ## 🛠️ Tecnologías Utilizadas
@@ -39,11 +34,11 @@ La filosofía de la marca ficticia "Rolda Toro" se centra en la **comodidad, el 
 **Frontend:**
 - HTML5 & CSS3
 - JavaScript (ES6+)
-- [React.js / Vue.js / Bootstrap / Tailwind CSS - *Elimina los que no uses*]
+- [React.js / Bootstrap / Tailwind CSS]
 
 **Backend & Base de Datos (Si aplica):**
-- [Node.js / Express / PHP - *Elimina los que no uses*]
-- [MySQL / MongoDB / Firebase - *Elimina los que no uses*]
+- [Node.js / Express / PHP]
+- [MySQL / MongoDB ]
 
 ---
 
@@ -53,4 +48,4 @@ Si deseas correr este proyecto en tu máquina local para revisarlo o modificarlo
 
 1. **Clona este repositorio:**
    ```bash
-   git clone [https://github.com/tu_usuario/rolda-toro-ecommerce.git](https://github.com/tu_usuario/rolda-toro-ecommerce.git)
+   git clone [https://github.com/Disantiago2210/Proyecto-interfaz](https://github.com/Disantiago2210/Proyecto-interfaz)
